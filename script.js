@@ -2,7 +2,8 @@ $(document).ready(function(){
 
 	$("#site-nav nav").hide();
 
-	$("#site-nav button").on('click', function(){
+	$("#site-nav .column-three").hover(function(event){
+		event.stopPropagation();
 		$(this).find('nav').toggle();
 	});
 
