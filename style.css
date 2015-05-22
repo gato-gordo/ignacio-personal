@@ -1,0 +1,42 @@
+/* Ignacio Prado Stylesheet */
+
+/* GENERAL */
+body {
+	font-family: 'Body', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+/* TEXT */
+@font-face { 
+	font-family: Logo; src: url('fonts/logo.ttf'); 
+} 
+@font-face { 
+	font-family: Body; src: url('fonts/body.ttf'); 
+} 
+h1, .h1 {
+
+}
+h2, .h2 {
+
+}
+h3, .h3 {
+	
+}
+
+/* HEADER */
+header div {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+#header-left {
+	background: #f8f786;
+}
+#header-right {
+	background: #eaeaea;
+}
+header h1 {
+	font-family: 'Logo', sans-serif;
+	color: #505050;
+}
