@@ -29,20 +29,24 @@ p {
 }
 
 /* HEADER */
-header div {
-	float: left;
-	width: 50%;
-	text-align: center;
+header {
+	background-color: #f8f786;
+	overflow: hidden;
 }
-#header-left {
-	background: #f8f786;
-}
-#header-right {
-	background: #eaeaea;
+#header-content  {
+	max-width: 1000px;
+	width: 80%;
+	margin: 0 auto;
 }
 header h1 {
 	font-family: 'Logo', sans-serif;
 	color: #505050;
+	float: left;
+	display: inline;
+}
+header h2 {
+	float: right;
+	display: inline;
 }
 
 /* MAIN BODY */
@@ -51,6 +55,7 @@ header h1 {
 	padding: 100px 0;
 	margin: 0 10%;
 	width: 80%;
+	max-width: 1000px;
 }
 
 /* SITE NAV */
@@ -72,12 +77,12 @@ header h1 {
 #about-button {
 	width: 150px;
 	height: 150px;
-	background: red;
+	background: #c40000;
 }
 #code-button {
 	width: 150px;
 	height: 150px;
-	background: blue;
+	background: #0045c4;
 	border-radius: 50%;
 }
 #thoughts-button {
@@ -85,7 +90,7 @@ header h1 {
 	height: 0;
 	border-style: solid;
 	border-width: 0 75px 129.9px 75px;
-	border-color: transparent transparent yellow transparent;
+	border-color: transparent transparent #fbf53c transparent;
 }
 nav ul {
 	list-style-type: none;
