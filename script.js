@@ -1,12 +1,7 @@
 $(document).ready(function(){
-	
-		if(document.documentElement.clientWidth > 750) {
-			$("#site-nav nav").css('display', 'none');
-
-			$("#site-nav .column-three").hover(function(event){
-				event.stopPropagation();
-				$(this).find('nav').toggle();
-			});
-		}
-
+	   $("#site-nav .column-three .button").click(function(event){
+		  event.stopPropagation();
+		  alert('clicked');
+		  //$(this).next().find('a').trigger('click');
+	   });
 });
