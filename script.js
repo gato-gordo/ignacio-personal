@@ -1,7 +1,8 @@
 $(document).ready(function(){
-	   $("#site-nav .column-three .button").click(function(event){
-		  event.stopPropagation();
-		  alert('clicked');
-		  //$(this).next().find('a').trigger('click');
-	   });
+	$('.button').click(function(event){
+		event.preventDefault();
+		event.stopPropagation();
+		//console.log($(this).parent().find('a'));
+		$(this).parent().find('a')[0].click();
+	});
 });
