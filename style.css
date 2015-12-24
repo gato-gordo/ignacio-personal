@@ -1,11 +1,5 @@
 /* Ignacio Prado Stylesheet */
 
-/* GENERAL */
-body {
-	font-family: 'Body', sans-serif;
-	padding: 0;
-	margin: 0;
-}
 
 /* TEXT */
 @font-face { 
@@ -14,6 +8,13 @@ body {
 @font-face { 
 	font-family: Body; src: url('fonts/body.ttf'); 
 } 
+
+/* GENERAL */
+body {
+	font-family: 'Body', sans-serif;
+	padding: 0;
+	margin: 0;
+}
 h1, .h1 {
 
 }
