@@ -15,18 +15,14 @@ body {
 	padding: 0;
 	margin: 0;
 }
-h1, .h1 {
-
-}
-h2, .h2 {
-
-}
-h3, .h3 {
-
-}
 p {
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 300;
+}
+
+p a {
+	text-decoration: none;
+	color: #0045c4;
 }
 
 /* HEADER */
@@ -55,7 +51,7 @@ header h2 {
 	clear: both;
 	padding: 60px 0;
 	margin: 0 auto;
-	width: 35%;
+	width: 40%;
 	max-width: 1000px;
 }
 #bio-image {
@@ -118,7 +114,7 @@ nav li a {
 }
 
 /* RESPONSIVENESS */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1024px) {
 	header h1, 
 	header h2 {
 		display: block;
@@ -127,6 +123,12 @@ nav li a {
 	header h1 {
 		line-height: 1.5em;
 	}
+    #main-body {
+      width: 60%;
+    }
+}
+
+@media screen and (max-width: 640px) {
 	#main-body {
 		width: 80%;
 	}
